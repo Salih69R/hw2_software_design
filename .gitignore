@@ -1,2 +1,21 @@
 
 *.xml
+*.class
+*.len
+*.keystream
+*.tab
+*.bin
+*.lock
+*.lock
+*.bin
+*.xml
+*.at
+*.tab_i
+*.MF
+*.jar
+*.txt
+*.kotlin_module
+*.bin
+*.lock
+*.lock
+.gradle/6.3/fileHashes/fileHashes.lock
