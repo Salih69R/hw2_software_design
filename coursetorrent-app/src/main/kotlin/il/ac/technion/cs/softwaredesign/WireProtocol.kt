@@ -85,7 +85,8 @@ object WireProtocolDecoder {
 data class DecodedHandshake(
     val infohash: ByteArray,
     val peerId: ByteArray
-) {
+)
+{
     override fun equals(other: Any?): Boolean {
         if (this === other) return true
         if (javaClass != other?.javaClass) return false
@@ -110,7 +111,8 @@ data class DecodedMessage(
     val messageId: Byte,
     val ints: List<Int>,
     val contents: ByteArray
-) {
+)
+{
     override fun equals(other: Any?): Boolean {
         if (this === other) return true
         if (javaClass != other?.javaClass) return false
